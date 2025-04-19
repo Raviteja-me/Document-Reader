@@ -12,5 +12,5 @@ COPY . ./
 RUN rm -rf uploads && mkdir uploads
 
 EXPOSE 8080
-
+ 
 CMD [ "npm", "start" ]

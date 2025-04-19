@@ -16,7 +16,7 @@ yarn-error.log*
 .env.production.local
 
 # OS-specific
-.DS_Store
+.DS_Store 
 Thumbs.db
 
 # Optional build/coverage/output folders

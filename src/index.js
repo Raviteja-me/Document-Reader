@@ -7,7 +7,7 @@ const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
-
+ 
 // Security and CORS
 app.use(cors());
 app.use((req, res, next) => {
