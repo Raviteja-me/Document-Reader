@@ -87,8 +87,9 @@ app.post('/api/extract-text', upload.single('document'), async (req, res) => {
 });
 
 const port = process.env.PORT || 8080;
-app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
+console.log(`Starting server on port ${port}...`);
+app.listen(port, '0.0.0.0', () => {
+    console.log(`Server successfully running on port ${port}`);
 });
 
 // Handle uncaught errors
